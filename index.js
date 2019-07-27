@@ -7,10 +7,14 @@ const bot = new LineBot({
     channelSecret: "757906b1f7f59310fdc9322b90e1f40e"
   });
 
+let features = require("./flex/features")
+
 bot.onEvent(async context=>{
     switch (context.event.text){
         case "fitur":
-          await context.replyText("ini fitur");
+          await context.replyFlex(
+            "[All Features]",
+            features);
           break;
 
         default:
