@@ -8,7 +8,7 @@ const template = {
       {
         "type": "text",
         "text": "Purecell",
-        "size": "lg",
+        "size": "md",
         "align": "center",
         "weight": "bold",
         "color": "#2C74A1"
