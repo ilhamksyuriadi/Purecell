@@ -8,13 +8,18 @@ const bot = new LineBot({
   });
 
 bot.onEvent(async context=>{
-    if (context.event.text){
-        await context.replyText('test')
+    switch (context.event.text){
+        case "fitur":
+          await context.replyText("ini fitur");
+          break;
+
+        default:
+            await context.replyText("Coba lagi");
     }
 })
 
 const server = createServer(bot);
 
-server.listen(process.env.PORT || 5000, () => {
-  console.log("server is running on 5000 port...");
+server.listen(process.env.PORT || 7000, () => {
+  console.log("server is running on 7000 port...");
 });
