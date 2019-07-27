@@ -17,7 +17,7 @@ const template = {
   },
   "hero": {
     "type": "image",
-    "url": "https://i.ibb.co/4MqNpSZ/main-2.png",
+    "url": "https://i.ibb.co/BZjB8zZ/main.png",
     "size": "full",
     "aspectRatio": "1.91:1",
     "aspectMode": "fit"
