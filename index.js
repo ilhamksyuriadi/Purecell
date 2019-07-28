@@ -9,7 +9,7 @@ const bot = new LineBot({
   });
 
 //DB config
-const db = 'mongodb+srv://ilham:171197@purecell-vlp1l.mongodb.net/test?retryWrites=true&w=majority;'
+const db = require('./dbconfig/keys').mongoURI;
 
 //DB connection
 mongoose
