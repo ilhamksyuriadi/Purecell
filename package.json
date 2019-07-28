@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ilhamksyuriadi/Purecell#readme",
   "dependencies": {
-    "bottender": "^0.15.17"
+    "bottender": "^0.15.17",
+    "mongoose": "^5.6.7"
   }
 }
